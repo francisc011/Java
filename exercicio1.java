@@ -1,1 +1,23 @@
+package exercicio1;
 
+import java.util.Scanner;
+
+public class exercicio1 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+    double c1, c2, h;
+    
+    System.out.print("c1");
+    Scanner LerS=new Scanner(System.in);
+    c1=LerS.nextDouble();
+    
+    System.out.print("c2");
+    c2=LerS.nextDouble();
+    
+    h=Math.sqrt(c1*c1+c2*c2);
+    
+    System.out.print("H=%.of".h);
+	}
+
+}
