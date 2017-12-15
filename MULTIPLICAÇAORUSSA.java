@@ -11,7 +11,9 @@ public class MULTIPLICAÇAORUSSA {
         M=dados.nextInt();
         while (m>1) {
         m=m/2;
-        System.out.print(m + "\n");
+        //System.out.print(m + "\n");
+        M=M*2;
+        System.out.print(M + "\n");
         
         }
     }    
